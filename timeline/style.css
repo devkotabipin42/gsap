@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'gilroy';
+
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(204, 183, 183);
+  font-size: 35px;
+}
+
+.second{
+  display: flex;
+  gap: 50px;
+  padding: 30px.50px;
+}
+
+.middle{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,50%);
+  font-size: 50px;
+  color: aliceblue;
+  white-space: nowrap;
+}
