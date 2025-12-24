@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'gilroy';
+
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+section {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+nav{
+  padding: 60px 100px;
+  display: flex;
+   justify-content: space-between;
+  align-items: center;
+}
+
+.part2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+
+}
+
+nav h1{
+  font-size:40px
+}
+
+nav h1 i{
+  rotate: 45deg;
+  display: inline-block;
+}
+.part2 h4{
+  font-size: 30px;
+}
+
+button{
+  padding:22px 40px ;
+  font-size: 22px;
+  background-color: transparent;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  border: 1px solid white;
+
+}
+
+.center{
+  display: flex;
+  height: 70%;
+  width: 100%;
+  padding: 60px 100px;
+
+}
+
+.center1{
+  width: 45%;
+}
+.center1 h1{
+  font-size: 109px;
+}
+
+.center1 p{
+  font-size: 43px;
+}
+.center2 {
+  width: 56%;
+  height: 100%;
+  position: relative;
+}
+
+.center2 img{
+  height: 100%;
+  position: absolute;
+  right: 0;
+  
+}
+
+
+
+.center1 button{
+  margin-top: 7px;
+  padding:22px 80px ;
+  font-size: 26px;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: 600;
+  color: rgb(28, 25, 25);
+
+}
+
+.section1bottom{
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  padding: 30px 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section1bottom img{
+  height: 60px;
+}
+
+.service {
+  display: flex;
+  width: 50%;
+  gap: 15px;
+  padding: 60px 100px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+
+
+.service h1{
+  padding: 10px;
+  font-size: 33px;
+  background-color: #45bc20;
+  font-weight: 600;
+}
+
+.service p{
+  font-size: 27px;
+  margin-left:10px ;
+}
+
+.card{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  padding: 60px 100px;
+  margin: 10px;
+  color: black;
+}
+
+.card .card1{
+  height: 100%;
+  width: 50%;
+}
+.card1 .carda{
+  height: 50%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  box-shadow: 0px 17px 0px white;
+
+  
+
+}
+.card1 .cardb{
+  height: 50%;
+  width: 100%;
+}
+
+.card .card2{
+  height: 100%;
+  width: 50%;
+  margin-left: 150px;
+}
+
+.card2 .cardc{
+  height: 50%;
+  width: 100%;
+}
+.card2 .cardd{
+  height: 50%;
+  width: 100%;
+}
+
+.carda{
+  display: flex;
+  position: relative;
+}
+
+.carda .div1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 30px;
+}
+
+.div1 .div0 h1,h2{
+  font-size: 40px;
+  background-color: #49c61c;
+  border-radius: 40px;
+  padding: 10px;
+
+}
+
+.div1 .div0 h2{
+  margin-left: 30px;
+}
+.div1 p{
+  font-size: 30px;
+}
+
+.div1 i{
+  font-size: 40px;
+  rotate: 310deg;
+  display: inline-block;
+}
+
+.div22 img{
+  position: absolute;
+  height: 100%;
+  left: 50%;
+}
+.card1 .cardb{
+  display: flex;
+  position: relative;
+  height: 50%;
+  width: 100%;
+  border-radius: 40px;
+  border: 2px solid black;
+  background-color: #b4a9a9;
+  margin-top: 40px;
+  margin-bottom: 20px;
+
+}
+
+.cardb .div2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 30px;
+
+
+}
+
+.div2 .div01 h1,h3{
+  font-size: 40px;
+  background-color: #b9bdb8;
+  border-radius: 40px;
+  padding: 10px;
+
+}
+
+.div2 .div01 h3{
+  margin-left: 30px;
+}
+.div2 p{
+  font-size: 30px;
+}
+
+.div2 i{
+  font-size: 40px;
+  rotate: 310deg;
+  display: inline-block;
+}
+
+.div222 img{
+  position: absolute;
+  height: 100%;
+  left: 30%;
+}
+
+.card2 .cardc{
+  display: flex;
+  position: relative;
+  height: 50%;
+  width: 100%;
+  border: 2px solid rgb(150, 137, 137);
+  border-radius: 40px;
+  background-color: #b4a9a9;
+  margin-bottom: 20px;
+
+
+}
+
+.cardc .div3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 30px;
+
+}
+
+.div3 .div02 h1,h3{
+  font-size: 40px;
+  background-color: #b9bdb8;
+  border-radius: 40px;
+  padding: 10px;
+
+}
+
+.div3 .div02 h3{
+  margin-left: 30px;
+}
+.div3 p{
+  font-size: 30px;
+}
+
+.div3 i{
+  font-size: 40px;
+  rotate: 310deg;
+  display: inline-block;
+}
+
+.div2222 img{
+  position: absolute;
+  height: 100%;
+  left: 50%;
+}
+.card2 .cardd{
+  display: flex;
+  position: relative;
+  height: 50%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  box-shadow: 0px 17px 0px white;
+
+}
+
+.cardd .div4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 30px;
+
+
+}
+
+.div4 .div03 h1,h2{
+  font-size: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: #3fad17;
+}
+
+.div4 .div03 h2{
+  margin-left: 30px;
+}
+.div4 p{
+  font-size: 30px;
+}
+
+.div4 i{
+  font-size: 40px;
+  rotate: 310deg;
+  display: inline-block;
+}
+
+.div22222 img{
+  position: absolute;
+  height: 100%;
+  left: 30%;
+}
+.section3{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(9, 17, 30);
+  color: rgb(197, 183, 183);
+}
+
+.section3 h1{
+  font-size: 40vw;
+}
