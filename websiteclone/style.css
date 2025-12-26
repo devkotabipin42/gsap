@@ -69,11 +69,18 @@ button{
   width: 45%;
 }
 .center1 h1{
+  font-weight: 900;
   font-size: 109px;
+  background: linear-gradient(to right,red,blue);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 .center1 p{
   font-size: 43px;
+   background: linear-gradient(to right,red,blue);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 .center2 {
   width: 56%;
@@ -94,10 +101,12 @@ button{
   margin-top: 7px;
   padding:22px 80px ;
   font-size: 26px;
-  background-color: white;
+  background-color: rgb(25, 110, 214);
   border-radius: 10px;
   font-weight: 600;
-  color: rgb(28, 25, 25);
+   background: linear-gradient(to right,red,blue);
+  color: transparent;
+  -webkit-background-clip: text;
 
 }
 
@@ -366,10 +375,127 @@ button{
 .section3{
   height: 100%;
   width: 100%;
-  background-color: rgb(9, 17, 30);
-  color: rgb(197, 183, 183);
+  
 }
 
 .section3 h1{
   font-size: 40vw;
+  background: linear-gradient(to right,red,blue);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+
+.section4{
+  height: 100%;
+  width: 100%;
+  padding: 60px 100px;
+
+  
+}
+
+.section4 .first{
+  display: flex;
+  height: 35%;
+  width: 100%;
+  background-color: #392b2b;
+  padding: 50px 60px;
+  border-radius: 30px;
+  color: black;
+  background-color: #c0b8b8;
+}
+
+.first .sec4{
+  height: 100%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.first .sec4 h1{
+font-size: 50px;
+margin-bottom: 7px;
+}
+.first .sec4 p{
+  font-size: 30px;
+margin-bottom: 7px;
+
+}
+
+.first .sec4 button{
+  height: fit-content;
+  width: fit-content;
+  font-size: 30px;
+  color: rgb(192, 187, 187);
+  background-color: #1f0303;
+  margin-bottom: 7px;
+
+}
+
+.first .sec44{
+  position: relative;
+  height: 100%;
+  width: 65%;
+  margin-bottom: 20px;
+
+}
+
+.first .sec44 img{
+  position: absolute;
+  left: 25%;
+  top: -27%;
+  height: 170%;
+}
+
+.section4 .second{
+  height: 25%;
+  width: 60%;
+  display: flex;
+  align-items: end;
+}
+
+.section4 .second h1{
+  font-size: 50px;
+  font-weight: 600;
+  height: fit-content;
+  width: fit-content;
+  background-color: greenyellow;
+  margin-right: 10px;
+ white-space: nowrap;
+ color: black;
+ border-radius: 10px;
+ margin-bottom: 15px;
+
+}
+.section4 .second p{
+   font-size: 30px;
+   margin-left: 30px;
+
+}
+
+.section4 .third{
+  height: 40%;
+  width: 100%;
+  display: flex;
+  padding: 30px 50px;
+  background-color: #c0b8b8;
+  margin-top: 30px;
+  border-radius: 30px;
+  gap: 10px;
+
+}
+
+.third .divp1 p{
+  color: black;
+  font-size: 30px;
+}
+.third .divp2 p{
+  color: black;
+  font-size: 30px;
+}
+.third .divp3 p{
+  color: black;
+  font-size: 30px;
 }
